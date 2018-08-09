@@ -1,0 +1,15 @@
+function $this 指向class裡的變數
+
+物件
+->(指向) ex:$demo->hello()
+指向demo class裡的hello function
+
+function__construct()建構值
+function__destruct()解構值
+parent::__construct()繼承建構值
+
+
+Constructor 
+如果子類別中定義了建構函數則不會呼叫其父類的建構函數。要執行父類別的構造函數，需要在子類別的建構函數中調用 parent::__construct()
+ 
+如果子類別沒有定義建構函數則會如同一個普通的類別方法一樣從父類繼承（假如沒有被定義為 private 的話）

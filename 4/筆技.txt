@@ -1,0 +1,38 @@
+啟用Cookie，並設定數值
+通常setcookie會常用到的三個參數：setcookie ( $name, $value, $expire)
+$name：變數名稱
+$value：變數值
+$expire：變數存活時間，常與time()配合使用，EX：time()+60*60*24*30 等於 一個月(三十天)後才過期
+
+
+
+$_SERVER['HTTP_HOST']：當前請求的Host頭中的內容(與取得Server的Port)
+$_SERVER['SERVER_NAME']：當前運行網頁檔案所在的主機名稱
+$_SERVER['REQUEST_URI']：訪問此頁面需要的URL
+$_SERVER['PHP_SELF']：當前正在執行的網頁檔案名稱
+$_SERVER['QUERY_STRING']：查詢的變數值
+
+
+
+ session_start();
+
+
+
+empty — 檢查一個變量是否為空
+isset 測定變數是否設定
+is_bool檢測變量是否是布爾型
+is_int 檢測變量是否是整數
+is_numeric 檢測變量是否為數字或數字字符串
+is_object 檢測變量是否是一個物件
+is_string 檢測變量是否是字符串
+
+
+
+
+sleep(seconds)
+
+php 7
+$array[] = ['a'];
+
+php 5
+$array = array();
