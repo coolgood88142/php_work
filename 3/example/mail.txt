@@ -1,0 +1,16 @@
+SMTP=ms2.hinet.net
+; http://php.net/smtp-port
+smtp_port=25
+
+; For Win32 only.
+; http://php.net/sendmail-from
+sendmail_from = wsadf11@gmail.com
+
+
+操作:Aachpe 裡的config有個php.ino檔 裡面修改
+上面新增寄信的協定
+sendmail_from 是指收件人
+
+
+
+me@example.com

@@ -1,0 +1,28 @@
+1.教學
+2.實作
+3.專題測驗
+4.QA時間
+
+
+
+介紹tortoiseHG跟Git差別
+
+
+Q
+git flow
+
+版控差異
+
+
+建立branch實作
+1.創建branch-1並切換
+hg branch branch-1 
+hg commit -m '建立branch-1'
+
+2.切換分支
+hg update branch-1 
+
+3.合併到default
+hg merge default
+
+ 
